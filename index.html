@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>siblings</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+     <div class="klasse">
+    <h1>  KLASSE<br>HEIKE MUTTER</h1>
+   </div>
+  </main>
+
+  <div class="rotator">
+    <img src="assets/what-now.svg" alt="Spinning circle" />
+  </div>
+
+  <div class="plan-container">
+    <img src="assets/room-plan.svg" alt="Room Plan" class="room-plan" />
+ <button class="marker" id="artwork-1" style="top: 85%; left: 32%;" data-id="1">1</button>
+<button class="marker" id="artwork-2" style="top: 53%; left: 15%;" data-id="2">2</button>
+<button class="marker" id="artwork-3" style="top: 51%; left: 7%;" data-id="3">3</button>
+<button class="marker" id="artwork-4" style="top: 40%; left: 7%;" data-id="4">4</button>
+<button class="marker" id="artwork-5" style="top: 32%; left: 7%;" data-id="5">5</button>
+<button class="marker" id="artwork-6" style="top: 24%; left: 7%;" data-id="6">6</button>
+<button class="marker" id="artwork-7" style="top: 16%; left: 7%;" data-id="7">7</button>
+<button class="marker" id="artwork-8" style="top: 5%; left: 7%;" data-id="8">8</button>
+<button class="marker" id="artwork-9" style="top: 5%; left: 20%;" data-id="9">9</button>
+<button class="marker" id="artwork-10" style="top: 5%; left: 35%;" data-id="10">10</button>
+<button class="marker" id="artwork-11" style="top: 16%; left: 29%;" data-id="11">11</button>
+<button class="marker" id="artwork-12" style="top: 40%; left: 29%;" data-id="12">12</button>
+<button class="marker" id="artwork-14" style="top: 5%; left: 55%;" data-id="14">14</button>
+<button class="marker" id="artwork-15" style="top: 5%; left: 75%;" data-id="15">15</button>
+<button class="marker" id="artwork-16" style="top: 5%; left: 90%;" data-id="16">16</button>
+<button class="marker" id="artwork-17" style="top: 12%; left: 90%;" data-id="17">17</button>
+<button class="marker" id="artwork-18" style="top: 19%; left: 90%;" data-id="18">18</button>
+<button class="marker" id="artwork-19" style="top: 28%; left: 90%;" data-id="19">19</button>
+<button class="marker" id="artwork-20" style="top: 35%; left: 82%;" data-id="20">20</button>
+<button class="marker" id="artwork-21" style="top: 43%; left: 75%;" data-id="21">21</button>
+<button class="marker" id="artwork-22" style="top: 53%; left: 66%;" data-id="22">22</button>
+<button class="marker" id="artwork-23" style="top: 53%; left: 56%;" data-id="23">23</button>
+<button class="marker" id="artwork-24" style="top: 53%; left: 49%;" data-id="24">24</button>
+<button class="marker" id="artwork-25" style="top: 53%; left: 42%;" data-id="25">25</button>
+<button class="marker" id="artwork-30" style="top: 25%; left: 75%;" data-id="30">30</button>
+<button class="marker" id="artwork-29" style="top: 16%; left: 68%;" data-id="29">29</button>
+<button class="marker" id="artwork-27" style="top: 20%; left: 50%;" data-id="27">27</button>
+<button class="marker" id="artwork-28" style="top: 28%; left: 50%;" data-id="28">28</button>
+<button class="marker" id="artwork-26" style="top: 16%; left: 38%;" data-id="26">26</button>
+<button class="marker" id="artwork-31" style="top: 75%; left: 93%;" data-id="31">31</button>
+<button class="marker" id="artwork-32" style="top: 95%; left: 93%;" data-id="32">32</button>
+<button class="marker" id="artwork-13" style="top: 28%; left: 19%;" data-id="13">13</button>
+
+  </div>
+
+  <div id="overlay">
+    <div id="overlayContent">
+      <button id="closeOverlay">&times;</button>
+      <h2 id="artistName"></h2>
+      <h3 id="artworkTitle"></h3>
+      <h4 id="artworkMaterial"></h4>
+      <p id="artworkDesc"></p>
+      <p id="artistInstagram" class="contact-link"></p>
+<p id="artistEmail" class="contact-link"></p>
+      <div id="navButtons">
+        <button id="prevPart">&larr;</button>
+        <button id="nextPart">&rarr;</button>
+      </div>
+    </div>
+  </div>
+<div class="artist-list">
+  <a href="#" class="artist" data-targets="1">rosmarin</a>
+  <a href="#" class="artist" data-targets="2,3">mona kurland</a>
+  <a href="#" class="artist" data-targets="4,5,6,7">niklas leonard</a>
+  <a href="#" class="artist" data-targets="8">elisabeth dimijgen</a>
+  <a href="#" class="artist" data-targets="9,10,29">veronika pluzhnikova</a>
+  <a href="#" class="artist" data-targets="11">anthony hetke</a>
+  <a href="#" class="artist" data-targets="12">iclal dönmez</a>
+  <a href="#" class="artist" data-targets="32">mu-in lü</a>
+  <a href="#" class="artist" data-targets="13,27">norma studenberg</a>
+  <a href="#" class="artist" data-targets="14,26">simon wegener</a>
+  <a href="#" class="artist" data-targets="15,16,17">stine kongpetsak</a>
+  <a href="#" class="artist" data-targets="18,27">luise köhler</a>
+  <a href="#" class="artist" data-targets="19,20">anna bosch</a>
+  <a href="#" class="artist" data-targets="21">gökce zaloglu</a>
+  <a href="#" class="artist" data-targets="22,23,24,30,31">jakob scheidt</a>
+  <a href="#" class="artist" data-targets="28">leon scheich</a>
+  <a href="#" class="artist" data-targets="25">sofia yevmina</a>
+</div>
+
+  <script src="content.js"></script>
+</body>
+</html>
