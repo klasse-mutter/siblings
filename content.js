@@ -80,7 +80,7 @@ const artworks = {
   16: [{ artist: "stine kongpetsak", title: "collage", material: "paper, watercolor, markers, color pencil" }],
   17: [{ artist: "stine kongpetsak", title: "Kids Art Magazine", material: "print on paper" }],
   18: [{ artist: "stine kongpetsak", title: "a", material: "cardboard" }],
-  19: [{ artist: "luise köhler", title: "de gode stube", material: "biobased leather alternative, cotton, wood, construction foam", , instagram: "mackerluise" }],
+  19: [{ artist: "luise köhler", title: "de gode stube", material: "biobased leather alternative, cotton, wood, construction foam", instagram: "mackerluise" }],
   20: [{ artist: "anna bosch", title: "paradiesgarten", material: "paper/canvas/colored pencil/watercolor", description: "Watercolor and colored pencils on paper and canvas. Evokes the inner feeling of connection to nature and the actually obvious." }],
   21: [{ artist: "anna bosch", title: "paradiesgarten", material: "paper/canvas/colored pencil/watercolor"}],
   22: [{ artist: "gökce zaloglu", title: "untitled", material: "photo print/pastel on paper", instagram: "gokce.zal"}],
@@ -92,7 +92,7 @@ const artworks = {
   27: [{ artist: "luise köhler & norma studenberg", title: "untitled", material: "mixed textile",}],
   28: [{ artist: "leon scheich", title: "untitled", material: "clay tiles, wood, beer bottles", description: "32×46×75 cm, 2025", instagram: "leon.scheich" }],
   26: [{ artist: "veronika pluzhnikova", title: "untitled", material: "acrylic on canvas", instagram: "vavavurvur"}],
-  31: [{ artist: "jakob scheidt", title: "Ohne Titel ", material: "Öl und Mischtechnik auf Leinwand", description: "200x260cm", , instagram: "jakob.scheidt" }],
+  31: [{ artist: "jakob scheidt", title: "Ohne Titel ", material: "Öl und Mischtechnik auf Leinwand", description: "200x260cm", instagram: "jakob.scheidt" }],
   32: [{ artist: "jakob scheidt", title: "Nautik", material: "Öl und Mischtechnik auf Leinwand", description: "200x140cm", instagram: "jakob.scheidt" }],
   13: [{ artist: "mu-in lü", title: "DHL & DFB"}],
 };
